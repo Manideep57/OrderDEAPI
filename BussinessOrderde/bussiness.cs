@@ -8,9 +8,9 @@ namespace BussinessOrderde
         public List<OrderDetailsModel> GetOrderDetails()
         {
             OrderdeDB obj = new OrderdeDB();    
-            List<OrderDetailsModel> lstOrderde = new List<OrderDetailsModel>();
-            lstOrderde=obj.GetOrderDetails();
-            return lstOrderde;
+            List<OrderDetailsModel> lstOrderdes = new List<OrderDetailsModel>();
+            lstOrderdes=obj.GetOrderDetails();
+            return lstOrderdes;
 
         }
 
